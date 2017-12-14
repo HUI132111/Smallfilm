@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.bwie.aizhonghui.smalltwo_yellow.HomeActivity">
+ <android.support.v4.view.ViewPager
+     android:id="@+id/vp_sy"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_above="@+id/rg_sy"></android.support.v4.view.ViewPager>
+
+  <RadioGroup
+      android:id="@+id/rg_sy"
+      android:layout_width="match_parent"
+      android:layout_height="100px"
+      android:orientation="horizontal"
+      android:gravity="center"
+      android:layout_alignParentBottom="true">
+
+   <RadioButton
+       android:id="@+id/rabtn_yy"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:gravity="center"
+       android:layout_height="wrap_content"
+       android:button="@null"
+       android:drawableTop="@drawable/sy_yy"
+        />
+   <RadioButton
+       android:id="@+id/rabtn_wd"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:gravity="center_horizontal"
+       android:layout_height="wrap_content"
+       android:button="@null"
+       android:drawableTop="@drawable/sy_wd"
+       />
+  </RadioGroup>
+ <ImageView
+     android:id="@+id/iv_smdc"
+     android:layout_width="120px"
+     android:layout_height="120px"
+     android:src="@drawable/sysmdc"
+     android:layout_centerHorizontal="true"
+     android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

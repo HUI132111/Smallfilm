@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:background="@drawable/sy_yy_t">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="130px"
+            android:layout_marginLeft="45px">
+            <ImageView
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:src="@drawable/gpsdw"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中原工学院科技园"
+                android:textColor="#ffffff"
+                android:textSize="40px"/>
+            <ImageView
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:src="@drawable/dw_sj"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="660px"
+            android:layout_height="70px"
+            android:layout_marginTop="200px"
+            android:background="@drawable/et_back"
+            android:layout_marginLeft="45px">
+            <EditText
+                android:layout_width="400px"
+                android:layout_height="70px"
+                android:hint="搜索店铺、菜品名称"
+                android:layout_centerInParent="true"
+                android:textColor="#999999"
+                android:background="@null"
+                android:drawableLeft="@drawable/search_sy"
+                android:textSize="26px"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/yuyues"
+        />
+
+
+</RelativeLayout>
